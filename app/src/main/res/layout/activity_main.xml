@@ -5,28 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Name "
-            android:gravity="start"
-            android:layout_weight="1"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" ABDIRAHMAN BASHIR "
-            android:gravity="end"
-            android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center"
 
-            />
-    </LinearLayout>
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,6 +32,7 @@
 
             />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,14 +41,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" Name "
+            android:text=" Campus "
             android:gravity="start"
             android:layout_weight="1"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" ABDIRAHMAN BASHIR "
+            android:text=" JKUAT MAIN JUJA "
             android:gravity="end"
             android:layout_weight="1"
 
@@ -78,19 +62,47 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" Name "
+            android:text=" Camp Name "
             android:gravity="start"
             android:layout_weight="1"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" ABDIRAHMAN BASHIR "
+            android:text=" JUJA "
+            android:gravity="end"
+            android:layout_weight="1"
+
+            />
+    </LinearLayout
+         >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Phone "
+            android:gravity="start"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0700816533 "
             android:gravity="end"
             android:layout_weight="1"
 
             />
     </LinearLayout>
-
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="edit"
+    android:layout_gravity="center"
+    />
 
 </LinearLayout>
